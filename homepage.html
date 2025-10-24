@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bytno - Innovative IT Solutions</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+.material-symbols-outlined {
+  font-variation-settings: 
+    'FILL' 0, 
+    'wght' 400, 
+    'GRAD' 0, 
+    'opsz' 24;
+}
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "primary": "#003366",
+                "background-light": "#F5F5F5",
+                "background-dark": "#111a22",
+                "accent": "#FF6600",
+                "text-light": "#333333",
+                "text-dark": "#FFFFFF"
+              },
+              fontFamily: {
+                "display": ["Montserrat", "sans-serif"]
+              },
+              borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+            },
+          },
+        }
+      </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-text-light dark:text-text-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap px-4 sm:px-10 md:px-20 lg:px-40 py-3 bg-background-light dark:bg-background-dark border-b border-gray-200 dark:border-gray-700 fixed top-0 left-0 right-0 z-50">
+<a href="homepage.html" class="flex items-center gap-4">
+<div class="size-8 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 30.5736C16.7203 29.8826 20.2244 29.4783 24 29.4783C27.7756 29.4783 31.2797 29.8826 34.1739 30.5736C36.9144 31.2278 39.9967 32.7669 41.3563 33.8352L24.8486 7.36089C24.4571 6.73303 23.5429 6.73303 23.1514 7.36089L6.64374 33.8352C8.00331 32.7669 11.0856 31.2278 13.8261 30.5736Z" fill="currentColor"></path>
+<path clip-rule="evenodd" d="M39.998 35.764C39.9944 35.7463 39.9875 35.7155 39.9748 35.6706C39.9436 35.5601 39.8949 35.4259 39.8346 35.2825C39.8168 35.2403 39.7989 35.1993 39.7813 35.1602C38.5103 34.2887 35.9788 33.0607 33.7095 32.5189C30.9875 31.8691 27.6413 31.4783 24 31.4783C20.3587 31.4783 17.0125 31.8691 14.2905 32.5189C12.0012 33.0654 9.44505 34.3104 8.18538 35.1832C8.17384 35.2075 8.16216 35.233 8.15052 35.2592C8.09919 35.3751 8.05721 35.4886 8.02977 35.589C8.00356 35.6848 8.00039 35.7333 8.00004 35.7388C8.00004 35.739 8 35.7393 8.00004 35.7388C8.00004 35.7641 8.0104 36.0767 8.68485 36.6314C9.34546 37.1746 10.4222 37.7531 11.9291 38.2772C14.9242 39.319 19.1919 40 24 40C28.8081 40 33.0758 39.319 36.0709 38.2772C37.5778 37.7531 38.6545 37.1746 39.3151 36.6314C39.9006 36.1499 39.9857 35.8511 39.998 35.764ZM4.95178 32.7688L21.4543 6.30267C22.6288 4.4191 25.3712 4.41909 26.5457 6.30267L43.0534 32.777C43.0709 32.8052 43.0878 32.8338 43.104 32.8629L41.3563 33.8352C43.104 32.8629 43.1038 32.8626 43.104 32.8629L43.1051 32.865L43.1065 32.8675L43.1101 32.8739L43.1199 32.8918C43.1276 32.906 43.1377 32.9246 43.1497 32.9473C43.1738 32.9925 43.2062 33.0545 43.244 33.1299C43.319 33.2792 43.4196 33.489 43.5217 33.7317C43.6901 34.1321 44 34.9311 44 35.7391C44 37.4427 43.003 38.7775 41.8558 39.7209C40.6947 40.6757 39.1354 41.4464 37.385 42.0552C33.8654 43.2794 29.133 44 24 44C18.867 44 14.1346 43.2794 10.615 42.0552C8.86463 41.4464 7.30529 40.6757 6.14419 39.7209C4.99695 38.7775 3.99999 37.4427 3.99999 35.7391C3.99999 34.8725 4.29264 34.0922 4.49321 33.6393C4.60375 33.3898 4.71348 33.1804 4.79687 33.0311C4.83898 32.9556 4.87547 32.8935 4.9035 32.8471C4.91754 32.8238 4.92954 32.8043 4.93916 32.7889L4.94662 32.777L4.95178 32.7688ZM35.9868 29.004L24 9.77997L12.0131 29.004C12.4661 28.8609 12.9179 28.7342 13.3617 28.6282C16.4281 27.8961 20.0901 27.4783 24 27.4783C27.9099 27.4783 31.5719 27.8961 34.6383 28.6282C35.082 28.7342 35.5339 28.8609 35.9868 29.004Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight tracking-[-0.015em]">bytno.com</h2>
+</a>
+<div class="hidden md:flex flex-1 justify-end gap-8 items-center">
+<div class="flex items-center gap-9">
+<a class="text-text-light dark:text-text-dark text-sm font-medium leading-normal" href="homepage.html">Home</a>
+<a class="text-text-light dark:text-text-dark text-sm font-medium leading-normal" href="services.html">Services</a>
+<a class="text-text-light dark:text-text-dark text-sm font-medium leading-normal" href="about.html">About Us</a>
+<a class="text-text-light dark:text-text-dark text-sm font-medium leading-normal" href="contact.html">Contact</a>
+</div>
+<a href="contact.html" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-accent text-white text-sm font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Get a Free Consultation</span>
+</a>
+</div>
+<button class="md:hidden flex items-center justify-center p-2 rounded-md text-text-light dark:text-text-dark hover:bg-gray-200 dark:hover:bg-gray-700">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</header>
+<main class="flex flex-col flex-1 pt-20">
+<div class="px-4 sm:px-10 md:px-20 lg:px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<div class="@container">
+<div class="@[480px]:p-4">
+<div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-start justify-center px-4 pb-10 @[480px]:px-10 text-center" data-alt="Abstract background with blue and gray tones" style='background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.6) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuC8rKwxfO2pxJeYdJe5wenD_hZokVXXbz1DLsW9GQJMfROmqPsqZD8HPZgUv-sBz9yF2z9ahsxlgUWymX8ShL7jKZbp-PiPt-lHHRNNcAybrdAHyj6FkTTAmPJutVJMpwUlvUXW0CZ6VTRAvHz2N_9pcq8mSZ-6GRxwp8Up3EUJYnLn_TiOXcw2IMfePziDgRNRczkLgNC3RvqlBGVDU1IY5gJxSgKFqYVVWT5sO2rkgAL_TMVZTr5GZaiX-NWHMFLdI-K2xSqpsL8");'>
+<div class="flex flex-col gap-4 items-center w-full">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">Innovative IT Solutions for Your Business</h1>
+<h2 class="text-white text-base font-normal leading-normal @[480px]:text-lg @[480px]:font-normal @[480px]:leading-normal max-w-2xl">We provide cutting-edge Tunnel VPN, CRM, ERP systems, website development, and IT infrastructure services to help your business thrive in the digital age.</h2>
+</div>
+<a href="services.html" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-accent text-white text-base font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Explore Our Services</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="px-4 sm:px-10 md:px-20 lg:px-40 flex flex-1 justify-center py-10">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<div class="flex flex-col gap-10 @container">
+<div class="flex flex-col gap-4 text-center">
+<h1 class="text-text-light dark:text-text-dark tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px] mx-auto">Our Core Services</h1>
+<p class="text-text-light dark:text-gray-400 text-base font-normal leading-normal max-w-[720px] mx-auto">We offer a comprehensive suite of IT services designed to meet the diverse needs of modern businesses.</p>
+</div>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-6 p-0">
+<div class="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-gray-700 bg-background-light dark:bg-background-dark p-6 flex-col items-center text-center hover:shadow-lg transition-shadow duration-300">
+<span class="material-symbols-outlined text-accent" style="font-size: 36px;">shield</span>
+<div class="flex flex-col gap-2">
+<h2 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight">Tunnel VPN</h2>
+<p class="text-text-light dark:text-gray-400 text-sm font-normal leading-normal">Secure and reliable VPN solutions for your business.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-gray-700 bg-background-light dark:bg-background-dark p-6 flex-col items-center text-center hover:shadow-lg transition-shadow duration-300">
+<span class="material-symbols-outlined text-accent" style="font-size: 36px;">groups</span>
+<div class="flex flex-col gap-2">
+<h2 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight">CRM Systems</h2>
+<p class="text-text-light dark:text-gray-400 text-sm font-normal leading-normal">Customizable CRM systems to manage customer relationships.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-gray-700 bg-background-light dark:bg-background-dark p-6 flex-col items-center text-center hover:shadow-lg transition-shadow duration-300">
+<span class="material-symbols-outlined text-accent" style="font-size: 36px;">business_center</span>
+<div class="flex flex-col gap-2">
+<h2 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight">ERP Systems</h2>
+<p class="text-text-light dark:text-gray-400 text-sm font-normal leading-normal">Integrated ERP systems to streamline your business processes.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-gray-700 bg-background-light dark:bg-background-dark p-6 flex-col items-center text-center hover:shadow-lg transition-shadow duration-300">
+<span class="material-symbols-outlined text-accent" style="font-size: 36px;">code</span>
+<div class="flex flex-col gap-2">
+<h2 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight">Website Development</h2>
+<p class="text-text-light dark:text-gray-400 text-sm font-normal leading-normal">Modern and responsive websites to enhance your online presence.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-gray-200 dark:border-gray-700 bg-background-light dark:bg-background-dark p-6 flex-col items-center text-center hover:shadow-lg transition-shadow duration-300">
+<span class="material-symbols-outlined text-accent" style="font-size: 36px;">database</span>
+<div class="flex flex-col gap-2">
+<h2 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight">IT Infrastructure</h2>
+<p class="text-text-light dark:text-gray-400 text-sm font-normal leading-normal">Robust IT infrastructure to support your business operations.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="px-4 sm:px-10 md:px-20 lg:px-40 flex flex-1 justify-center py-10 bg-gray-50 dark:bg-gray-800/20">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<div class="flex flex-col md:flex-row items-center gap-10 @container">
+<div class="flex-1 flex flex-col gap-4">
+<h1 class="text-text-light dark:text-text-dark tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">About Bytno</h1>
+<p class="text-text-light dark:text-gray-400 text-base font-normal leading-normal">Bytno is a leading IT firm dedicated to providing innovative and reliable solutions to businesses of all sizes. Our mission is to empower our clients with the technology they need to succeed in a competitive market. We are committed to delivering excellence and building long-lasting partnerships.</p>
+</div>
+<div class="flex-1">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl" data-alt="A modern office environment with a team collaborating" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAwMIBpnYLQ53HRhP0kj-DBDUFXtp5Z_JVmy-06Hmt7cdeJAgwezpMGQjvCpqgd13EMVM5o2ywIgfUSKBHLrWcr7hO19Hk_Adk3Z1FnuEeArrmNQ4U5qhBx_cIZ2V3yzHvoAyFNvwJB49bLGyT6LI-fp8HvdxLuaBuG2RXFuc6Igh1i1ReSUfUe85RYOuFr81BuT2xFEt0oVwOZIjGw7kyAXX5o4fEddq3YTKwsBguAuWFIfvh8_SSg9NP_EQ7-WYwi41E6wEwgNes");'></div>
+</div>
+</div>
+</div>
+</div>
+<div class="px-4 sm:px-10 md:px-20 lg:px-40 flex flex-1 justify-center py-20">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<div class="@container">
+<div class="flex flex-col justify-center gap-6 text-center">
+<div class="flex flex-col gap-2">
+<h1 class="text-text-light dark:text-text-dark tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px] mx-auto">Ready to Transform Your Business?</h1>
+<p class="text-text-light dark:text-gray-400 text-base font-normal leading-normal max-w-[720px] mx-auto">Let us help you achieve your business goals with our expert IT solutions.</p>
+</div>
+<div class="flex justify-center">
+<a href="contact.html" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-accent text-white text-base font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Get a Free Consultation</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-background-light dark:bg-gray-800/50 border-t border-gray-200 dark:border-gray-700 px-4 sm:px-10 md:px-20 lg:px-40 py-10">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+<div>
+<h3 class="text-lg font-bold text-text-light dark:text-text-dark mb-4">Bytno.com</h3>
+<p class="text-text-light dark:text-gray-400 text-sm">Innovative IT solutions for a digital world. We empower businesses with cutting-edge technology and expert support.</p>
+</div>
+<div>
+<h3 class="text-lg font-bold text-text-light dark:text-text-dark mb-4">Quick Links</h3>
+<ul class="space-y-2">
+<li><a class="text-sm text-text-light dark:text-gray-400 hover:text-accent dark:hover:text-accent" href="homepage.html">Home</a></li>
+<li><a class="text-sm text-text-light dark:text-gray-400 hover:text-accent dark:hover:text-accent" href="services.html">Services</a></li>
+<li><a class="text-sm text-text-light dark:text-gray-400 hover:text-accent dark:hover:text-accent" href="about.html">About Us</a></li> {/* Dikkat: önceki kodda class- idi, class= olarak düzeltildi */}
+<li><a class="text-sm text-text-light dark:text-gray-400 hover:text-accent dark:hover:text-accent" href="contact.html">Contact</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-bold text-text-light dark:text-text-dark mb-4">Contact Us</h3>
+<p class="text-sm text-text-light dark:text-gray-400">123 Tech Avenue, Silicon Valley, CA 94043</p>
+<p class="text-sm text-text-light dark:text-gray-400">Email: contact@bytno.com</p>
+<p class="text-sm text-text-light dark:text-gray-400">Phone: (123) 456-7890</p>
+<div class="flex space-x-4 mt-4">
+<a class="text-text-light dark:text-gray-400 hover:text-accent dark:hover:text-accent" href="#"><span class="material-symbols-outlined">social_leaderboard</span></a>
+<a class="text-text-light dark:text-gray-400 hover:text-accent dark:hover:text-accent" href="#"><span class="material-symbols-outlined">code</span></a>
+<a class="text-text-light dark:text-gray-400 hover:text-accent dark:hover:text-accent" href="#"><span class="material-symbols-outlined">alternate_email</span></a>
+</div>
+</div>
+</div>
+<div class="text-center text-sm text-text-light dark:text-gray-500 mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
+© 2024 Bytno.com. All Rights Reserved.
+</div>
+</footer>
+</div>
+</div>
+</body></html>
